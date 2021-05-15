@@ -349,6 +349,11 @@
 		display: block;
 	}
 
+	.header.menu-open .header-logo .logo{
+		height: 48px;
+    	width: 100px;
+	}
+
 	.header.menu-open {
     	min-height: 332px;
     }
@@ -379,13 +384,15 @@
     	margin-right: 0;
 	}
 
-	#corousel {
-		max-width: 100%;
-		margin-bottom: 42px;
+	#carousel {
+		max-width: 375px;
+		margin-left: -20px;
 		position: absolute;
+		top: 0;
 	}
 
 	.section-about {
+		padding-top: 220px;
 		max-width: 335px;
 		font-size: 18px;
 		line-height: 22px;
