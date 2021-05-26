@@ -57,6 +57,7 @@
 
 .slick-slide img {
 	max-width: 100%;
+	width: 100%;
 }
 
 .slick-prev, .slick-next { 
